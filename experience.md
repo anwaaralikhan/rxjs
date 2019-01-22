@@ -1,1 +1,1 @@
-# rxjs - reactive x - javascript
+# rxjs - reactive x - [javascript]
