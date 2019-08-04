@@ -27,3 +27,14 @@ change:
       loaders 
       to:
       rules
+
+
+If you are using rxjs >=6.0.0 then you no longer use Observable.from. Instead from is a standalone function.
+
+import { Observable, from} from 'rxjs';
+
+//old way
+var o = Observable.from([1, 2, 3, 4]);
+
+//new way
+var o = from([1, 2, 3, 4]);
